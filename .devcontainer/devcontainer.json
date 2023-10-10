@@ -15,11 +15,13 @@
       "userUid": "automatic",
       "userGid": "automatic"
     },
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-      "moby": false,
-      "installDockerBuildx": true,
-      "version": "latest",
-      "dockerDashComposeVersion": "v2"
+    //"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+    //  "moby": false,
+    //  "installDockerBuildx": true,
+    //  "version": "latest",
+    //  "dockerDashComposeVersion": "v2"
+    //},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
     },
     "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
       "plugins": "ssh-agent npm zsh-syntax-highlighting zsh-autosuggestions",
